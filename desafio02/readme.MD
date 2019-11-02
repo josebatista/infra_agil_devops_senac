@@ -16,9 +16,16 @@
 ```
 
 
+
+## DockerHub
+
+### docker push pereiraze/desafio02
+
+
+
 ## Forma de subir o container docker
 
-### docker run -p 8087:9090 -e APP_NAME=<app_name> -e APP_COLOR=<app_color> desafio02
+### docker run -p 8087:9090 -e APP_NAME=<app_name> -e APP_COLOR=<app_color> pereiraze/desafio02
 
 ```
 
@@ -28,6 +35,3 @@
 
 ```
 
-## DockerHub
-
-### docker push pereiraze/desafio02
