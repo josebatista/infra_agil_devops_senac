@@ -1,0 +1,13 @@
+11/11/19
+
+# download helm
+curl "https://get.helm.sh/helm-v2.16.0-rc.2-linux-amd64.tar.gz" | tar zx
+
+# mover pasta
+mv linux-amd64/helm /usr/bin
+
+# verificar versao instalada
+helm version --client
+
+#realizar debug do pod sem liberar um ip externo
+kubectl port-forward "<app-pod>" 8081:80
